@@ -9,29 +9,18 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: #efefef;
+    background-color: #fff;
     height: 100vh;
+    width: 100%;
     -webkit-font-smoothing: antialiased;
   }
 
-  h1,h2,h3,h4,h5,h6,strong {
-    font-weight: 500;
-  }
-
   body,input,button, select {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
   }
 
   button {
     cursor: pointer;
-  }
-
-  ul {
-    list-style-type: none;
-  }
-
-  a {
-    text-decoration: none;
   }
 `;

@@ -20,6 +20,12 @@
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
   "rules": {
+    "consistent-return": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "no-restricted-syntax": "off",
+    "no-plusplus": "off",
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
     "prettier/prettier": "error",
     "no-use-before-define": "off",
     "react-hooks/rules-of-hooks": "error",
