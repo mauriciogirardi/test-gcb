@@ -68,6 +68,7 @@ export const ContainerHeader = styled.div`
       > div {
         display: flex;
         align-items: center;
+
         input {
           width: 100%;
         }
@@ -286,17 +287,20 @@ export const MembershipContent = styled.div`
         margin-left: 1rem;
       }
     }
+  }
 
-    @media screen and (max-width: 500px) {
+  @media screen and (max-width: 500px) {
+    form {
       > div {
         display: flex;
         align-items: center;
 
-        input {
+        div {
           width: 100%;
         }
 
         button {
+          width: 3.8rem;
           margin-left: 0.5rem;
         }
       }
